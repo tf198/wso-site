@@ -5,15 +5,14 @@ description: >-
   a representative committee elected at the Annual General Meeting.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-facebook_id: "100063542081591"
-youtube_id: "@warrnamboolsymphonyorchest9548"
+facebook_username: "warrnamboolorchestra"
+youtube_username: "@warrnamboolorchestra"
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

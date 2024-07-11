@@ -13,6 +13,20 @@ BODY {
   max-width: calc(1000px - (30px * 2));
 }
 
+.footer-col-wrapper {
+  display: flex;
+}
+
+.footer-col {
+  float: none;
+  padding: initial;
+  margin: 0px 10px 15px;
+  width: auto;
+}
+.footer-col-3 {
+  flex-grow: 2;
+}
+
 .social-media-list {
   white-space: nowrap;
 }

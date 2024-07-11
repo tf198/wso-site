@@ -3,8 +3,8 @@ email: info@warrnamboolorchestra.org.au
 description: >-
   Warrnambool Symphony Orchestra Ltd is an incorporated, not-for-profit association governed by
   a representative committee elected at the Annual General Meeting.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/wso-site" # the subpath of your site, e.g. /blog
+url: "https://tf198.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: "warrnamboolorchestra"
 youtube_username: "@warrnamboolorchestra"
 

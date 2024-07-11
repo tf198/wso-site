@@ -1,0 +1,18 @@
+---
+---
+@import "minima";
+
+BODY {
+  font-family: Open Sans,Arial,sans-serif;
+  color: #666;
+  line-height: 1.7em;
+  font-weight: 500;
+}
+
+.wrapper {
+  max-width: calc(1000px - (30px * 2));
+}
+
+.social-media-list {
+  white-space: nowrap;
+}

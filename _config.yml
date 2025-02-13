@@ -13,6 +13,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
+banners:
+  - banner21920aa.jpg
+  - banner2a.jpg
+  - IMG_12121920.jpeg
+  - IMG_26641920.jpeg
+  - IMG_26791920.jpeg
 
 # Exclude from processing.
 # The following items will not be processed, by default.

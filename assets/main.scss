@@ -13,20 +13,76 @@ BODY {
   max-width: calc(1000px - (30px * 2));
 }
 
-.footer-col-wrapper {
-  display: flex;
+
+.site-header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  z-index: 100;
+
+  .site-nav {
+    margin-top: 17px;
+  }
 }
 
-.footer-col {
-  float: none;
-  padding: initial;
-  margin: 0px 10px 15px;
-  width: auto;
+.header-fix {
+  margin-top: 88px;
 }
-.footer-col-3 {
-  flex-grow: 2;
+
+.footer-col-wrapper {
+  display: flex;
+
+  .footer-col {
+    float: none;
+    padding: initial;
+    margin: 0px 10px 15px;
+    width: auto;
+  }
+  
+  .footer-col-3 {
+    flex-grow: 2;
+  }
 }
 
 .social-media-list {
   white-space: nowrap;
+}
+
+.banner {
+  position: relative;
+  height: 500px;
+
+  .banner-image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 500px;
+    opacity: 0;
+    transition: all 1s ease-in;
+  }
+  
+  .active {
+    opacity: 1;
+  }
+}
+
+ARTICLE.post {
+  IMG {
+    width: 390px;
+    border-radius: 10px;
+    margin: 10px 20px;
+  }
+  
+  .pull-right {
+    float: right;
+    clear: both;
+  }
+
+  .pull-left {
+    float: left;
+    clear: both;
+  }
 }
